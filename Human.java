@@ -59,7 +59,7 @@ public class Human {
        String sex;
        int age;
        double height;
-       double weight; Это не используем обо это есть у класса Human*/
+       double weight; РЅРµ РЅСѓР¶РЅРѕ С‚Р°Рє РєР°Рє РјРµС‚РѕРґ СѓР¶Рµ РІ РєР»Р°СЃСЃРµ Рё Сѓ РЅРµРіРѕ РїРѕР»СЏ РѕРїСЂРµРґРµР»РµРЅС‹*/
 
         Human human = new Human();
 
@@ -84,7 +84,7 @@ public class Human {
         return human;
     }
     
-// Тут ниже идут проверки вводиміх значений
+// РќРёР¶Рµ РІС‹РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРѕРІРµСЂРєР° РІРІРѕРґРёРјС‹С… РґР°РЅРЅС‹С…
     
     private String getName(String s) {
         while ((!s.matches("(\\D){3,15}"))) {
